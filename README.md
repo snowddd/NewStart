@@ -35,6 +35,24 @@ A:完成上述的測驗後，請將以下資訊寄至 jimmy.lee@careline.com.tw 
  
 <br/>
 
+### Q:請問一下，一開始的綠色貓頭鷹是誰呀?
+
+A: 我是凱，熱愛生活、旅行與美食，身型雖然很小，但冒險可以很大。
+ - 想看我的故事，可點擊此[連結](https://www.careline.com.tw/story)，裡面還可以看到在下的`哥哥(壯壯)`和`妹妹(安安)`哦~
+ - 想看我的日記，歡迎到[fb訂閱](https://www.facebook.com/kaistraventure/)，就讓在下分享喜悅給你吧 XDD
+
+> 終於有人問這題了，灑花(絕不承認是我拿食物賄賂大家才有這題的 哈哈哈~~
+
+<br/>
+
+### Q:還是不太懂，你們公司在做的內容耶
+
+A: 我們在台灣與多家保險業者合作，為的是想幫你找出最合適的保障 :)
+ - 目前推出的險種可參考我們[首頁](https://www.careline.com.tw/)
+ - 想暸解我們的團隊故事，可參考[關於我們](https://www.careline.com.tw/aboutus/)
+ 
+<br/>
+
 ---
 ## 專案來源
  此專案是由[Angular 官網](https://angular.io/tutorial)所取得，因此有關Angular的考題內容都可在裡面找到答案的
