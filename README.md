@@ -20,7 +20,7 @@ A: 請你開啟此[網站](https://careline-newstar.firebaseapp.com/)，照著�
 
 ### Q:我可以先暸解你們職缺的工作內容嗎
 
-A:可以開啟此[連結](https://www.104.com.tw/job/6vg9q?jobsource=jolist_b_relevance)查看哦
+A:可以開啟此[連結](https://www.104.com.tw/job/5a0c4?jobsource=jolist_c_relevance)查看哦
 
 > 若有疑問，可以發Issue，標題前請加`[職務內容]`
 
