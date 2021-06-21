@@ -16,6 +16,7 @@ import { HeroSearchComponent }  from './hero-search/hero-search.component';
 import { HeroService }          from './hero.service';
 import { MessageService }       from './message.service';
 import { MessagesComponent }    from './messages/messages.component';
+import { BonusPointModule } from './bonus-point/bonus-point.module';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { MessagesComponent }    from './messages/messages.component';
     // Remove it when a real server is ready to receive requests.
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
-    )
+    ),
+    BonusPointModule
   ],
   declarations: [
     AppComponent,

@@ -1,0 +1,16 @@
+.keyword {
+  color: #cd6f80;
+}
+.title {
+  font-size: 1.5rem;
+  color: #666666;
+  text-align: center;
+}
+.page-title {
+  font-size: 2rem;
+  color: #353535;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
