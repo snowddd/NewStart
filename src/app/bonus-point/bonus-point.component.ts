@@ -56,7 +56,7 @@ export class BonusPointComponent implements OnInit {
         result = 'ToDo...';
       });
 
-    // 預期alert的結果 => js 1 answer : 1,2,3,4,5,6,7,8
+    // 預期alert的結果 => js 1 answer : child_1_1 , child_1_2 , parent_1 , child_2_1 ,  parent_2 ,child_3_1 , child_3_2 , child_3_3 , parent_3
     alert(`js 1 answer : ${result}`)
   }
 
