@@ -28,7 +28,7 @@ A:可以開啟此[連結](https://www.104.com.tw/job/5a0c4?jobsource=jolist_c_re
 
 ### Q:依照題目修改完此專案後，該怎麼通知你們呢?
 
-A:完成上述的測驗後，請將以下資訊寄至 jimmy.lee@careline.com.tw ，謝謝囉~
+A:完成上述的測驗後，請將以下資訊寄至 frontend@careline.com.tw ，謝謝囉~
  - fork的github專案url
  - 姓名
  - 手機
