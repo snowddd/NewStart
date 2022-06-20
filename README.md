@@ -12,7 +12,7 @@ A:取代之前`前端工程師`紙筆測驗的方式，我們會給你一些題�
 
 ### Q:那要怎麼開始呢
 
-A: 請你開啟此[網站](https://careline-newstar.firebaseapp.com/)，照著指引暸解所有的題目內容
+A: 請你開啟此[網站](https://cl-quiz-frontend.web.app/cl-dashboard)，照著指引暸解所有的題目內容
 
 > 若有疑問，可以發Issue，標題前請加`[考題]`
 
