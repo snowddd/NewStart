@@ -1,3 +1,4 @@
+import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
 import { Component } from '@angular/core';
 
@@ -9,7 +10,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Tour of Heroes';
 
-  constructor(private messageSvc: MessageService) {
+  constructor(private messageSvc: MessageService, public heroSvc:HeroService) {
 
   }
 
