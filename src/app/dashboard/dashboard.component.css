@@ -48,7 +48,8 @@ h4 {
     flex-direction: column;
     }
 }
-/* @media (min-width: 767px) {
+
+@media (min-width: 767px) {
   .col { 
   width: 50%
   }   
@@ -56,4 +57,4 @@ h4 {
     flex-wrap: wrap;
     flex-direction: row;
     }
-} */
+}
