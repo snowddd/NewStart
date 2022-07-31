@@ -52,14 +52,20 @@ export class BonusPointComponent implements OnInit {
 
   answerJs1() {
     let result: string;
+    let newResult = [];
     this.bsJs1Service.getSample()
       .forEachChilds((child) => {
         // ToDo : 實作你的解決方案...
-        result = 'ToDo...';
+        if(newResult.find((r)=>r === child.parent.value)){
+          newResult.pop();
+        }
+        newResult.push(child.value);
+        newResult.push(child.parent.value);
       });
+      alert(newResult.join(' ,'));
 
     // 預期alert的結果 => js 1 answer : child_1_1 , child_1_2 , parent_1 , child_2_1 ,  parent_2 ,child_3_1 , child_3_2 , child_3_3 , parent_3
-    alert(`js 1 answer : ${result}`)
+    // alert(`js 1 answer : ${result}`)
   }
 
 }
