@@ -9,6 +9,8 @@ import { tap } from 'rxjs/operators';
   styleUrls: ['./bonus-point.component.css']
 })
 export class BonusPointComponent implements OnInit {
+  
+  q1Data = ['F1','F2','F3','F4','','F6','F7','F8','F9']
 
   constructor(
     private bsJs1Service: BsJs1Service,
