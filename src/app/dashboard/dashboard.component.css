@@ -1,12 +1,5 @@
 /* DashboardComponent's private CSS styles */
-[class*='col-'] {
-  float: left;
-  padding-right: 20px;
-  padding-bottom: 20px;
-}
-[class*='col-']:last-of-type {
-  padding-right: 0;
-}
+
 a {
   text-decoration: none;
 }
@@ -24,12 +17,12 @@ h4 {
 .grid {
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
 }
+
 .col {
-  flex: 1;
-  min-width: 31vw;
+  padding:10px;
 }
+
 .module {
   padding: 20px;
   text-align: center;
@@ -44,23 +37,23 @@ h4 {
   cursor: pointer;
   color: #607d8b;
 }
-.grid-pad {
-  padding: 10px 0;
-}
-.grid-pad > [class*='col-']:last-of-type {
-  padding-right: 20px;
-}
-@media (max-width: 600px) {
+
+
+@media (max-width: 767px) {
   .module {
     font-size: 10px;
     max-height: 75px; }
+
+    .grid {    
+    flex-direction: column;
+    }
 }
-@media (max-width: 850px) {
-  .grid {
-    margin: 0;
-    flex-wrap: unset;
-  }
-  .module {
-    min-width: 60px;
-  }
-}
+/* @media (min-width: 767px) {
+  .col { 
+  width: 50%
+  }   
+  .grid {    
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+} */
