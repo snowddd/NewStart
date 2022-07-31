@@ -70,3 +70,34 @@ img {
 .q1 li:nth-child(8){
     border-right: 0;
    } 
+
+
+
+   .grid {
+    display: grid;
+    width: 900px;
+    height: 350px;
+    grid-template-columns: repeat(2, 1fr) repeat(2, 1.5fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .ga {
+     line-height: 116px;
+     text-align: center;
+     font-size: 30px;
+     box-sizing: border-box;
+     border: solid 0.5px black;
+    }
+    
+    .ga1 { 
+      line-height: 232px;
+      grid-area: 1 / 1 / 3 / 3;
+     }
+    .ga2 { grid-area: 1 / 3 / 2 / 4; }
+    .ga3 { grid-area: 1 / 4 / 2 / 5; }
+    .ga4 { grid-area: 2 / 3 / 3 / 4; }
+    .ga5 { grid-area: 2 / 4 / 3 / 5; }
+    .ga6 { grid-area: 3 / 1 / 4 / 3; }
+    .ga7 { grid-area: 3 / 3 / 4 / 5; }
