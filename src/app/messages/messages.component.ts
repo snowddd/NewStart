@@ -8,9 +8,16 @@ import { MessageService } from '../message.service';
 })
 export class MessagesComponent implements OnInit {
 
-  constructor(public messageService: MessageService) {}
+  constructor(public messageService: MessageService) { }
 
   ngOnInit() {
+  }
+
+  clear(): void {
+    const clear = confirm('是否清除訊息 LOG ?');
+    if (clear) {
+      this.messageService.clear();
+    }
   }
 
 }
