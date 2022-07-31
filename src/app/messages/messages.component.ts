@@ -13,11 +13,4 @@ export class MessagesComponent implements OnInit {
   ngOnInit() {
   }
 
-  clear(): void {
-    const clear = confirm('是否清除訊息 LOG ?');
-    if (clear) {
-      this.messageService.clear();
-    }
-  }
-
 }
